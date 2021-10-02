@@ -11,7 +11,7 @@ class App extends Component {
           <h1 className="App-title">Welcome to Docker-Meetup</h1>
         </header>
         <p className="App-intro">
-          Welcome to this Docker Meetup with Jenkins
+          Welcome to this Docker Meetup with Jenkins*********************
 
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
