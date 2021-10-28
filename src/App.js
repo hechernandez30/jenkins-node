@@ -24,20 +24,7 @@ class App extends Component {
     <link rel="stylesheet" href="css/master.css">
   </head>
   <body>
-<div class="login-box"><br>
-  <img class="avatar" src="img/logo.jpg" alt="Logo de FAzt">
-  <h1>Login Here</h1>
-  <form>
-    <!-- USERNAME -->
-    <label for="username">Username</label>
-    <input type="text" placeholder="Enter Username"><br><br>
-    <!-- Password -->
-    <label for="password">Password</label>
-    <input type="password" placeholder="Enter Password"><br><br>
-    <input type="submit" value="Log In"><br><br>
-    <a href="#">Lost your password?</a><br>
-    <a href="#">Don't have an account?</a>
-  </form>
+Este es una prueba, veremos como sucede todo...
   </body>
 </html>
     );
