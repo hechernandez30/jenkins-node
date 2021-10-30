@@ -1,10 +1,20 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<title></title>
-		<link rel="stylesheet" type="text/css" href="css/estilo.css">
-	</head>
-	<body>
+<!--import React, { Component } from 'react';-->
+<!--import logo from './logo.svg';-->
+<!--import './App.css';-->
+<link rel="stylesheet" type="text/css" href="css/estilo.css">
+
+      <!--div className="App"
+        <header className="App-header">
+          <img src={logo} className="App-logo" alt="logo" />
+          <h1 className="App-title">Welcome to Docker-Meetup</h1>
+        </header>
+        <p className="App-intro">
+          Welcome to this Docker Meetup with Jenkins
+
+          To get started, edit <code>src/App.js</code> and save to reload.
+        </p>
+      /div-->
+      <body>
 		<div id="principal">
 			<header>
 				<div id="logo">
@@ -68,4 +78,6 @@
 		</div>
 
 	</body>
-</html>
+      
+
+export default App;
