@@ -1,36 +1,34 @@
-import React from 'react';
-import {BrowserRouter as Router,Switch,Route} from "react-router-dom";
+import React, { Component } from 'react';
+import logo from './logo.svg';
 import './App.css';
 
-import Home from './components/Home';
-import About from './components/About';
-import Online from './components/Online';
-import Offline from './components/Offline';
-import Contact from './components/Contact';
+class App extends Component {
+  render() {
+    return (
+      <!--<div className="App">
+        <header className="App-header">
+          <img src={logo} className="App-logo" alt="logo" />
+          <h1 className="App-title">Welcome to Docker-Meetup</h1>
+        </header>
+        <p className="App-intro">
+          Welcome to this Docker Meetup with Jenkins*********************
 
-import Navbarmenu from './components/menu/Navbarmenu';
-
-function App() {
-  return (
-    <div>
-      <Router basename="/">
-
-        {/* Add Menu Component */}
-        <Navbarmenu />
-        
-        <Switch> 
-          <Route exact path="/" component={Home}/>
-          <Route path="/About" component={About}/>
-          <Route path="/Online" component={Online}/>
-          <Route path="/Offline" component={Offline}/>
-          <Route path="/Contact" component={Contact}/>
-
-          
-        </Switch>
-      </Router>
-
-    </div>
-  );
+          To get started, edit <code>src/App.js</code> and save to reload.
+        </p>
+      </div>-->
+      <!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Login Here | Fazt</title>
+    <link rel="stylesheet" href="css/master.css">
+  </head>
+  <body>
+Este es una prueba, veremos como sucede todo...
+  </body>
+</html>
+    );
+  }
 }
 
 export default App;
