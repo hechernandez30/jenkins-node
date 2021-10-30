@@ -1,9 +1,11 @@
-<!--import React, { Component } from 'react';-->
-<!--import logo from './logo.svg';-->
-<!--import './App.css';-->
+import React, { Component } from 'react';
+import logo from './logo.svg';
+import './App.css';
 <link rel="stylesheet" type="text/css" href="css/estilo.css">
-
-      <!--div className="App"
+class App extends Component {
+  render() {
+    return (
+      <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <h1 className="App-title">Welcome to Docker-Meetup</h1>
@@ -13,7 +15,7 @@
 
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
-      /div-->
+      </div>
       <body>
 		<div id="principal">
 			<header>
@@ -78,6 +80,8 @@
 		</div>
 
 	</body>
-      
+      );
+  }
+}
 
 export default App;
