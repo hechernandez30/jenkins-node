@@ -1,17 +1,27 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import pagina2 from './index.html';
+
 
 class App extends Component {
   render() {
     return (
       <div className="App">
+      <nav class="menu">
+		<ul>
+			<li><a href="index.html">Inicio</a></li>
+			<li><a href="productos.html">Productos</a></li>
+			<li><a href="contacto.html">Contacto</a></li>
+		</ul>
+	</nav>
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <h1 className="App-title">Bienvenido Hector to Docker-Meetup</h1>
-          <a href={pagina2}>Inicio</a>
+          
         </header>
+        <div clas="secundaarios">
+        
+        </div>
         <p className="App-intro">
           Welcome to this Docker Meetup with Jenkins
 
