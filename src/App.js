@@ -16,15 +16,8 @@ class App extends Component {
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
       </div>
-      <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Login Here | Fazt</title>
-    <link rel="stylesheet" href="css/master.css">
-  </head>
   
-</html>
+
     );
   }
 }
