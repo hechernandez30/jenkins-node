@@ -16,7 +16,7 @@ class App extends Component {
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
       </div>
-      <body>
+      
       
       <div id="principal">
 			<header>
@@ -80,7 +80,7 @@ class App extends Component {
 
 		</div>
       
-      </body>
+      
     );
   }
 }
