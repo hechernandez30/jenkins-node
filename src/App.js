@@ -7,10 +7,10 @@ import pagina2 from './index.html';
 class App extends Component {
   render() {
     return (
-      <div className="App">
+      <div className="App">			
       <nav class="menu">
 		<ul>
-			<li><a src={pagina2}> Inicio</a></li>
+			<li><a href="/index.html"> Inicio</a></li>
 			<li><a href="productos.html">Productos</a></li>
 			<li><a href="contacto.html">Contacto</a></li>
 		</ul>
