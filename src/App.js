@@ -1,37 +1,36 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
+import React from 'react';
+import {BrowserRouter as Router,Switch,Route} from "react-router-dom";
 import './App.css';
 
+import Home from './components/Home';
+import About from './components/About';
+import Online from './components/Online';
+import Offline from './components/Offline';
+import Contact from './components/Contact';
 
+import Navbarmenu from './components/menu/Navbarmenu';
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">			
+function App() {
+  return (
+    <div>
+      <Router basename="/">
+
+        {/* Add Menu Component */}
+        <Navbarmenu />
         
-         
-         
-         
-         <nav class="menu">
-		<ul>
-			<li><a href="/index.html"> Inicio</a></li>
-			<li><a href="productos.html">Productos</a></li>
-			<li><a href="contacto.html">Contacto</a></li>
-		</ul>
-	</nav>
-         
-         
-         
+        <Switch> 
+          <Route exact path="/" component={Home}/>
+          <Route path="/About" component={About}/>
+          <Route path="/Online" component={Online}/>
+          <Route path="/Offline" component={Offline}/>
+          <Route path="/Contact" component={Contact}/>
+
           
-        
-        
-        
-      </div>
-      
-      
-      
-    );
-  }
+        </Switch>
+      </Router>
+
+    </div>
+  );
 }
 
 export default App;
