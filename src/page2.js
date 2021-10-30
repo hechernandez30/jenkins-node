@@ -1,6 +1,6 @@
   import React from "react";
 
-   function Page2() {
+   function page2() {
 
         return (
           <div>
@@ -10,4 +10,4 @@
 
     }
 
-    export default Page2;
+    export default page2;

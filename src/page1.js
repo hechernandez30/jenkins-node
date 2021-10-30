@@ -1,7 +1,7 @@
   import React from "react";
    import {Link } from "react-router-dom";
 
-    function Page1() {
+    function page1() {
 
         return (
           <div>
@@ -19,4 +19,4 @@
 
     }
 
-    export default Page1;
+    export default page1;
