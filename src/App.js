@@ -12,13 +12,8 @@ class App extends Component {
         </header>
         <p className="App-intro">
           Welcome to this Docker Meetup with Jenkins
-
           To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
-      </div>
-      
-      
-      <div id="principal">
+          <div id="principal">
 			<header>
 				<div id="logo">
 					<h2 class="titulo">Bienvenidos</h2>
@@ -79,6 +74,11 @@ class App extends Component {
 
 
 		</div>
+        </p>
+      </div>
+      
+      
+      
       
       
     );
