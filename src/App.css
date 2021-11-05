@@ -1,27 +1,28 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
-body {
-  background-color: white;
-  margin: auto;
-  padding: 0px;
-  overflow-x: hidden;
-  background-repeat: repeat;
-  font-family: 'Inter', sans-serif;
-  display: grid;
-}
-.container {
-  width: 100%;
-	padding-right:15px;
-	padding-left:15px;
-	margin-right:auto;
-	margin-left:auto
-}
-img {
-  max-width: 100%;
-  height: auto;
+.App {
+  text-align: center;
 }
 
-.sec__one {
-    position: relative;
-    width: 100%;
-    display: flex;
-    padding: 60px
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
