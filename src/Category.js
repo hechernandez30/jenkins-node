@@ -14,6 +14,8 @@ class Category extends Component {
         <li>
           <h3>{this.props.name}</h3>
           <ul>
+            {this.props.items.map((item)=>{
+              return <MenuItem name={item} key={item}/>})}
           </ul>
         </li>
       </div>
