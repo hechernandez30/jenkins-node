@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import MenuItem from './MenuItem.js';
+import './Category.css';
 
 class Category extends Component {
   constructor(props){
@@ -8,12 +9,18 @@ class Category extends Component {
       visible:false
     }
   }
+
+  handleClick(event){
+    event.preventDefault();
+    this.setState({visible:!this.state.visible})
+  }
+
   render() {
     return (
       <div className="category">
         <li>
-          <h3>{this.props.name}</h3>
-          <ul>
+          <h3 onClic={this.handleCLick.bind(this)}>{this.props.name}</h3>
+          <ul className={this.state.visible?'visible':'no-visible'}>
             {this.props.items.map((item)=>{
               return <MenuItem name={item} key={item}/>})}
           </ul>
