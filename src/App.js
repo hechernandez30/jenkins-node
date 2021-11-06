@@ -4,8 +4,8 @@ import Category from './Category.js';
 import Inicio from './Inicio';
 import Productos from './Productos';
 import Contacto from './Contacto';
-import { BrowserRouter as Router, Switch, Route } from
-'react-router-dom';
+import { BrowserRouter, Router, Switch } from
+"react-router-dom";
 
 class App extends Component {
   render() {
