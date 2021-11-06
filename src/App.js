@@ -5,23 +5,7 @@ import Inicio from './Inicio';
 import Productos from './Productos';
 import Contacto from './Contacto';
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <ul>
-          <Category name="Pagina de Inicio" items={['Mision','Vision','Objetivos']}/>
-          <Category name="Productos" items={['Ofertas del Mes','Black Friday','En liquidacion']}/>
-          <Category name="Contacto" items={['Sedes','Ubicacion','Video Informativo']}/>
-        </ul>
-      </div>
-    );
-  }
-}
-
-
-
-var Component = React.createClass({
+var App = React.createClass({
   getInitialState: function() { return {query: ''} },
   queryChange: function(evt) {
     this.setState({query: evt.target.value});
@@ -40,7 +24,5 @@ var Component = React.createClass({
     );
   }
 });
-
-
 
 export default App;
